@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49484E9621D219D200019080 /* verificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49484E9521D219D200019080 /* verificationViewController.swift */; };
 		4954F15021CCDD7A00E539D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954F14F21CCDD7A00E539D5 /* AppDelegate.swift */; };
 		4954F15221CCDD7A00E539D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954F15121CCDD7A00E539D5 /* ViewController.swift */; };
 		4954F15521CCDD7A00E539D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4954F15321CCDD7A00E539D5 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		4954F15A21CCDD8D00E539D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4954F15821CCDD8D00E539D5 /* LaunchScreen.storyboard */; };
 		4954F16521CCDD8D00E539D5 /* FirebaseSmsOnayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954F16421CCDD8D00E539D5 /* FirebaseSmsOnayTests.swift */; };
 		4954F17021CCDD8D00E539D5 /* FirebaseSmsOnayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954F16F21CCDD8D00E539D5 /* FirebaseSmsOnayUITests.swift */; };
+		4954F17E21CCE00F00E539D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4954F17D21CCE00F00E539D5 /* GoogleService-Info.plist */; };
+		73EDB93DB1453C5F6813E9B6 /* Pods_FirebaseSmsOnayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BDE21D2C7D34BD9D22A0C0 /* Pods_FirebaseSmsOnayTests.framework */; };
+		80D54883A01C6219B37EDDC5 /* Pods_FirebaseSmsOnay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277C1CEB110E9CDEEBD204E9 /* Pods_FirebaseSmsOnay.framework */; };
+		8AA01C6DBC3177D97875D001 /* Pods_FirebaseSmsOnayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D616FB7A7F4536188C9449D2 /* Pods_FirebaseSmsOnayUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02B66C5E87A3C01684BC5C19 /* Pods-FirebaseSmsOnayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSmsOnayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSmsOnayUITests/Pods-FirebaseSmsOnayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		277C1CEB110E9CDEEBD204E9 /* Pods_FirebaseSmsOnay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSmsOnay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A19F0C043C791876611AB7D /* Pods-FirebaseSmsOnayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSmsOnayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSmsOnayUITests/Pods-FirebaseSmsOnayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49484E9521D219D200019080 /* verificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verificationViewController.swift; sourceTree = "<group>"; };
 		4954F14C21CCDD7900E539D5 /* FirebaseSmsOnay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseSmsOnay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4954F14F21CCDD7A00E539D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4954F15121CCDD7A00E539D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,14 @@
 		4954F16B21CCDD8D00E539D5 /* FirebaseSmsOnayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseSmsOnayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4954F16F21CCDD8D00E539D5 /* FirebaseSmsOnayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSmsOnayUITests.swift; sourceTree = "<group>"; };
 		4954F17121CCDD8D00E539D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4954F17D21CCE00F00E539D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4954F17F21CD016300E539D5 /* FirebaseSmsOnay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseSmsOnay.entitlements; sourceTree = "<group>"; };
+		6687AD86CFCA8FB305356641 /* Pods-FirebaseSmsOnay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSmsOnay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSmsOnay/Pods-FirebaseSmsOnay.debug.xcconfig"; sourceTree = "<group>"; };
+		6B0F56D15A4F2B7D6578829C /* Pods-FirebaseSmsOnayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSmsOnayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSmsOnayTests/Pods-FirebaseSmsOnayTests.release.xcconfig"; sourceTree = "<group>"; };
+		82E5A5626D683AF8075843B6 /* Pods-FirebaseSmsOnayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSmsOnayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSmsOnayTests/Pods-FirebaseSmsOnayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C6EE79B1E53440ABFE37CD /* Pods-FirebaseSmsOnay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSmsOnay.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSmsOnay/Pods-FirebaseSmsOnay.release.xcconfig"; sourceTree = "<group>"; };
+		C2BDE21D2C7D34BD9D22A0C0 /* Pods_FirebaseSmsOnayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSmsOnayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D616FB7A7F4536188C9449D2 /* Pods_FirebaseSmsOnayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSmsOnayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D54883A01C6219B37EDDC5 /* Pods_FirebaseSmsOnay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73EDB93DB1453C5F6813E9B6 /* Pods_FirebaseSmsOnayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA01C6DBC3177D97875D001 /* Pods_FirebaseSmsOnayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,8 @@
 				4954F16321CCDD8D00E539D5 /* FirebaseSmsOnayTests */,
 				4954F16E21CCDD8D00E539D5 /* FirebaseSmsOnayUITests */,
 				4954F14D21CCDD7900E539D5 /* Products */,
+				FFF89EEF99405AAAA865DE8B /* Pods */,
+				B199ACEF5F8E80D46EF8442C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +119,15 @@
 		4954F14E21CCDD7900E539D5 /* FirebaseSmsOnay */ = {
 			isa = PBXGroup;
 			children = (
+				4954F17F21CD016300E539D5 /* FirebaseSmsOnay.entitlements */,
 				4954F14F21CCDD7A00E539D5 /* AppDelegate.swift */,
 				4954F15121CCDD7A00E539D5 /* ViewController.swift */,
+				49484E9521D219D200019080 /* verificationViewController.swift */,
 				4954F15321CCDD7A00E539D5 /* Main.storyboard */,
 				4954F15621CCDD8D00E539D5 /* Assets.xcassets */,
 				4954F15821CCDD8D00E539D5 /* LaunchScreen.storyboard */,
 				4954F15B21CCDD8D00E539D5 /* Info.plist */,
+				4954F17D21CCE00F00E539D5 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseSmsOnay;
 			sourceTree = "<group>";
@@ -125,6 +150,29 @@
 			path = FirebaseSmsOnayUITests;
 			sourceTree = "<group>";
 		};
+		B199ACEF5F8E80D46EF8442C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				277C1CEB110E9CDEEBD204E9 /* Pods_FirebaseSmsOnay.framework */,
+				C2BDE21D2C7D34BD9D22A0C0 /* Pods_FirebaseSmsOnayTests.framework */,
+				D616FB7A7F4536188C9449D2 /* Pods_FirebaseSmsOnayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFF89EEF99405AAAA865DE8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6687AD86CFCA8FB305356641 /* Pods-FirebaseSmsOnay.debug.xcconfig */,
+				A4C6EE79B1E53440ABFE37CD /* Pods-FirebaseSmsOnay.release.xcconfig */,
+				82E5A5626D683AF8075843B6 /* Pods-FirebaseSmsOnayTests.debug.xcconfig */,
+				6B0F56D15A4F2B7D6578829C /* Pods-FirebaseSmsOnayTests.release.xcconfig */,
+				2A19F0C043C791876611AB7D /* Pods-FirebaseSmsOnayUITests.debug.xcconfig */,
+				02B66C5E87A3C01684BC5C19 /* Pods-FirebaseSmsOnayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4954F17421CCDD8D00E539D5 /* Build configuration list for PBXNativeTarget "FirebaseSmsOnay" */;
 			buildPhases = (
+				6CCFFEFD4BF6B0D9106787B1 /* [CP] Check Pods Manifest.lock */,
 				4954F14821CCDD7900E539D5 /* Sources */,
 				4954F14921CCDD7900E539D5 /* Frameworks */,
 				4954F14A21CCDD7900E539D5 /* Resources */,
+				F13ADD9202D848191058E542 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4954F17721CCDD8D00E539D5 /* Build configuration list for PBXNativeTarget "FirebaseSmsOnayTests" */;
 			buildPhases = (
+				3D6F7A5845CA3B5912A99F79 /* [CP] Check Pods Manifest.lock */,
 				4954F15C21CCDD8D00E539D5 /* Sources */,
 				4954F15D21CCDD8D00E539D5 /* Frameworks */,
 				4954F15E21CCDD8D00E539D5 /* Resources */,
@@ -167,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4954F17A21CCDD8D00E539D5 /* Build configuration list for PBXNativeTarget "FirebaseSmsOnayUITests" */;
 			buildPhases = (
+				A623AC9CBC78655E3ACB82BB /* [CP] Check Pods Manifest.lock */,
 				4954F16721CCDD8D00E539D5 /* Sources */,
 				4954F16821CCDD8D00E539D5 /* Frameworks */,
 				4954F16921CCDD8D00E539D5 /* Resources */,
@@ -193,6 +245,14 @@
 				TargetAttributes = {
 					4954F14B21CCDD7900E539D5 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					4954F15F21CCDD8D00E539D5 = {
 						CreatedOnToolsVersion = 10.1;
@@ -230,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4954F15A21CCDD8D00E539D5 /* LaunchScreen.storyboard in Resources */,
+				4954F17E21CCE00F00E539D5 /* GoogleService-Info.plist in Resources */,
 				4954F15721CCDD8D00E539D5 /* Assets.xcassets in Resources */,
 				4954F15521CCDD7A00E539D5 /* Main.storyboard in Resources */,
 			);
@@ -251,11 +312,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D6F7A5845CA3B5912A99F79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseSmsOnayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CCFFEFD4BF6B0D9106787B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseSmsOnay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A623AC9CBC78655E3ACB82BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseSmsOnayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13ADD9202D848191058E542 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSmsOnay/Pods-FirebaseSmsOnay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSmsOnay/Pods-FirebaseSmsOnay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4954F14821CCDD7900E539D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49484E9621D219D200019080 /* verificationViewController.swift in Sources */,
 				4954F15221CCDD7A00E539D5 /* ViewController.swift in Sources */,
 				4954F15021CCDD7A00E539D5 /* AppDelegate.swift in Sources */,
 			);
@@ -430,8 +587,10 @@
 		};
 		4954F17521CCDD8D00E539D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6687AD86CFCA8FB305356641 /* Pods-FirebaseSmsOnay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirebaseSmsOnay/FirebaseSmsOnay.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4G25QJY7H;
 				INFOPLIST_FILE = FirebaseSmsOnay/Info.plist;
@@ -448,8 +607,10 @@
 		};
 		4954F17621CCDD8D00E539D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C6EE79B1E53440ABFE37CD /* Pods-FirebaseSmsOnay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirebaseSmsOnay/FirebaseSmsOnay.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4G25QJY7H;
 				INFOPLIST_FILE = FirebaseSmsOnay/Info.plist;
@@ -466,6 +627,7 @@
 		};
 		4954F17821CCDD8D00E539D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E5A5626D683AF8075843B6 /* Pods-FirebaseSmsOnayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +649,7 @@
 		};
 		4954F17921CCDD8D00E539D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0F56D15A4F2B7D6578829C /* Pods-FirebaseSmsOnayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +671,7 @@
 		};
 		4954F17B21CCDD8D00E539D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A19F0C043C791876611AB7D /* Pods-FirebaseSmsOnayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +692,7 @@
 		};
 		4954F17C21CCDD8D00E539D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B66C5E87A3C01684BC5C19 /* Pods-FirebaseSmsOnayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
