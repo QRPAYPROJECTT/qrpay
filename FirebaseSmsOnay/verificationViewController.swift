@@ -29,6 +29,7 @@ class verificationViewController: UIViewController {
                 print("Phone number: \(user?.phoneNumber)")
                 let userInfo = user?.providerData[0]
                 print("provider ID: \(userInfo?.providerID)")
+                print ("fgfgfd")
                 self.performSegue(withIdentifier: "logged", sender: Any?.self)
             }
         }
